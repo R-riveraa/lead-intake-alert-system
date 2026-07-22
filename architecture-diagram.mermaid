@@ -1,0 +1,9 @@
+flowchart LR
+    A[Lead submits form] --> B[Phone Validation API]
+    B --> C[AI Urgency Scoring]
+    C --> D{Score >= threshold?}
+    D -- Yes --> E[Log to CRM<br/>Priority: High]
+    D -- No --> F[Log to CRM<br/>Priority: Standard]
+    E --> G{Phone valid?}
+    G -- Yes --> H[SMS Alert]
+    G -- No --> I[No SMS<br/>lead still logged]
