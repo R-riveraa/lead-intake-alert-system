@@ -2,6 +2,9 @@
 
 A lead intake and qualification pipeline built for a real estate lead-response use case. Built twice — once in n8n, once in Zapier — to validate the same core logic across two automation platforms.
 
+**[Watch the demo](https://www.loom.com/share/610692eabe2c451dadf8c055ee794a94)** — a lead submits the form, gets scored, logged, and triggers an SMS alert in 30 seconds.
+
+
 ## What it does
 
 1. A lead submits contact info and a message through a hosted intake form (n8n Form Trigger)
