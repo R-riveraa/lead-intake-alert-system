@@ -12,7 +12,7 @@ A lead intake and qualification pipeline built for a real estate lead-response u
 6. High-priority leads with a validated phone number trigger an SMS alert via Twilio
 7. **n8n only:** leads missing required contact info (name or phone) are logged with an Error status instead of failing silently or being discarded
 
-See `architecture-diagram.mermaid` for the full flow.
+See [architecture-diagram.mermaid](./architecture-diagram.mermaid) for the full flow.
 
 ## Stack
 
